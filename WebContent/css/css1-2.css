@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font:12px Verdana;
+}
+#ff {
+	
+	width: 1240px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#a1 {
+	
+	width: 1240px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 80px;
+	float:left;
+}
+#a1  .logo{
+    float:left;
+	padding:8px 0 20px;
+	margin-left:150px;
+	margin-right:50px;
+	
+}
+#a1  .logo h1{
+   font-size:1.8em;
+   text-transform:uppercase;
+}
+#a1  .logo h1 a{
+	text-decoration:none;
+	color:#ca5518;
+	display:block;
+	
+}
+
+#a1  .logo h4{
+   font-size:0.8em;
+   text-transform:uppercase;
+}
+#a1  .logo h4 a{
+	text-decoration:none;
+	color:#ca5518;
+	display:block;
+	
+	
+}
+#a2 {
+	
+	float: left;
+	height: 500px;
+	width: 550px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#a2 .a2-1{
+	width: 500px;
+	height: 60px;
+
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:40px;
+	margin-bottom:5px;
+	
+}
+#a2 .a2-1 .pages{
+	
+	list-style-type: none;	
+
+}
+#a2 .a2-1 .pages li{
+		float:left;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-top:20px;
+		
+}
+#a2 .a2-1 .pages li a{
+	text-decoration:none;
+	color:#ca5518;
+	display:block;
+	font-size:1.4em;	
+}
+	
+
+#a2 .a2-1 .nav-title{
+	width:100px;	
+	font-size:20px;
+}
+
+#a2 .a2-2{
+	height: 250px;
+	width: 500px;
+	
+	margin-top:2px;
+	margin-left:10px;
+	margin-right:40px;
+	margin-bottom:40px;
+	
+}
+#a2 .a2-2 .input1-1{
+	margin-left: 30px;
+	margin-right:30px;
+	margin-bottom:30px;
+	height: 250px;
+	list-style-type: none;	
+}
+#a2 .a2-2 .input1-1 .input1-2{
+	width:300px;
+	height:40px;
+	margin:20px;
+}
+#a2 .a2-2 .input1-1 .input1-3{
+	width:300px;
+	height:40px;
+	margin:20px;
+}
+
+#a2 .a2-2 .input1-1 .input1-4{
+	width:200px;
+	height:40px;
+	margin:20px;
+	
+}
+
+#a2 .a2-2 .btn{
+	margin-left:90px;
+}
+input{
+	font-size:20px;
+	boder:0;
+	margin:0 auto;
+	width:300px;
+	height:40px;
+	color:#000;
+	
+}
+
+#a3 {
+	
+	float: left;
+	height: 500px;
+	width: 650px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	position:relative;
+}
+#a3  .a3-1{
+	height: 400px;
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+}
+.a3-1 a{
+	color:#fff;
+}
+  .a3-1 .img{
+	margin:0 ;
+	padding:0;
+	
+}
+	
+
+#ff2 {
+	
+	clear: both;
+	width: 1240px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	text-align:center;
+	margin:0 auto;
+}
+
+#ff2  .f1 {
+	list-style-type: none;
+	
+}
+#ff2 .f1 li a{
+	text-decoration: none;
+	color: #999;
+}
+#ff2  .f1 li a:hover{
+	color: #F30;
+	text-decoration: underline;
+}
+#ff2 .f2 {
+	float: left;
+	width: 65px;
+}
+
+
+#ff2  p{
+	margin:o auto;
+	font-size:0.8em;
+	color: #999;
+	
+}
+
+
+
+
+.deng{
+		position:relative;
+	}
+.err-tips{color:#f00;font-size:14px;}
+.mt5{margin-top:5px !important;}
+.hide{display:none}
+.wbox{display:-webkit-box;}
+.wbox-flex{-webkit-box-flex:1;word-wrap:break-word;word-break:break-all}
+
+
+.err-tips{color:#f00;font-size:14px;}
+.mt5{margin-top:5px !important;}
+.hide{display:none}
+
+
+.input-checkbox-a{
+	width:15px;
+	height:15px;
+	border:1px solid #C6C6C6;
+	border-radius:3px;background:#fff;
+	-webkit-box-shadow:0 0 2px #ccc inset;}
+.f-les{
+	float:left;
+	}
+.m-tops{
+	margin-top:10px;
+	}
+
+.zhmm{
+	padding:0 10px;
+	}
+.zhmm .input-checkbox-a{
+	margin-right:5px;
+	vertical-align:-3px;
+	}
+
+
+
+
+
+

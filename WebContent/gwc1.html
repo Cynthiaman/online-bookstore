@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>购物车</title>
+<link rel="stylesheet" type="text/css" href="css/gwc.css" />
+</head>
+
+<body>
+<div id="gwc">
+<div id="gwc1">
+<div class="gwc1-1">
+<ul class="gwc1-2">
+<li>
+<a href="javascript:history.back(1)">返回</a>
+<a href="#">购物车</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="gwc23">
+<div id="gwc2">
+<img src="images/10010.jpg" alt="" width="120px" height="120px" />
+</div>
+
+
+<div id="gwc3">
+<p><span class="attr">编号：</span>${cart.goodsCode}</p>
+<p class="pro-name">
+<a id="name_1" href="" title="${cart.goodsName}">${cart.goodsName}</a><br />
+</p>
+<div class="gwc3-count">
+<span class="attr">数量：</span>
+  <div class="gwc3-countArea">
+  <a href="javascript:void(0)" class="min" onclick="lesV2(this,&#39;1&#39;);
+  updateNum('${cart.goodsCode}',${cart.goodsNumber},${cart.goodsPrice},'min');"></a>
+  <input class="gwc3-input" type="text" value="${cart.goodsNumber}" 
+  
+  onChange="javascript:changeNum('${cart.goodsNumber}',this.value,${cart.goodsPrice});" >
+  
+ 
+ 
+  <a href="javascript:void(0)" class="add" onclick="addV2(this,&#39;1&#39;);
+  updateNum('${cart.goodsCode}',${cart.goodsNumber},${cart.goodsPrice},'min');"></a>
+  </div>
+
+</div>
+<p>
+<span class="attr">WINPINHUI价：</span>
+<span class="price">￥${cart.goodsPreferentialPrice}</span>
+</p>
+<div class="trash" onclick="javascript:deleteCartItem(this,'${cart.goodsCode}');">
+<span class="lid"></span><span class="can"></span></div>
+
+</div>
+</div>
+<div class="a5 mt5" name="" id=""></div>
+
+<p class="gwc3-mt5">
+<span>总计：<em id="">￥${cart2.payAll}</em></span>
+<span id="">-优惠：<em id="">￥0.00</em></span>
+</p>
+
+<p class="gwc3-mt5">应付总额（未含运费）：<span class="price">
+<em id="">￥${cart2.payAll}</em></span>
+</p>
+<div class="gwc-btn bta" id="checkOutbutton">
+<a name="" title="去结算">去结算</a></div>
+<div class="gwc-btn btb" id="checkOutbutton">
+<a name="" title="继续购物">&lt;&lt;继续购物</a></div>
+<div class="gwc-btn btc" id="checkOutbutton">
+<a name="" title="清空购物车" href="javascript:;" onclick="clearCart();">清空购物车</a></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

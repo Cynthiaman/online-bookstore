@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/css1-1.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+  $(function(){
+  pHolder();
+  });
+  //顶部搜索框获取焦点后文本变空
+  function pHolder(){
+	var elem = $("#keywordsTop");
+	var dValue = $("#keywordsTop").val();
+	elem.focus(function(){
+	  if(elem.val() == dValue){
+	     elem.val("");
+	    }
+	  });
+	  elem.blur(function(){
+		if(elem.val() == ""){
+		   elem.val(dValue);
+	  }
+	});
+  }
+</script>
+<div id="a6">
+<div class="a6-1">
+<ul class="pages">
+    <li> <a class="goback" href="javascript:history.back(1)">返回</a></li>
+    <li> <div class="nav-title ">商品搜索结果</div></li>
+   
+ </ul>
+</div>
+<div class="a6-2">
+"<span class="ma3" id="searchKeyword">${requestScope.searchName}</span>"，共找到<span id="productAmount">（${requestScope.goodsCount}）条相关结果。</span>
+</div>
+<div class="a6-3">
+ <ul class="details" >
+     <c:forEach var="goods" items="${requestScope.goodsList}">	
+      <li>
+        <a href="${goods.goodsCode}.html">
+          <div class="details-3">
+            <div class="details-4">
+            <img width="130" height="130" src="${goods.goodsImageAddress}"             alt="${goods.goodsName}">
+            </div>
+           
+              <p class="pro-name">${goods.goodsCode}</p>
+              <p class="pro-name">${goods.goodsName}</p>
+                <p class="pro-name">${goods.goodsAuthor}</p>
+              <p class="mt5">
+                <span class="snPrice" style="font-size:14px;">¥ ${goods.goodsPrice}</span>
+              </p>
+           
+          </div>
+          </a>
+          <span class="arrow"></span>
+      </li>
+    </c:forEach>	 
+    </ul>
+</div>
+
+
+ <div id="more_load w">
+    <div class="load-more-lay" style="display: block;" id="loadingMore">
+    <a href="javascript:void(0);" onclick="formSearch.submit();">点击加载更多</a>
+    </div>
+    <ul class="loading-now-lay fix hide" style="display: none;">
+      <li class="square-load"></li>
+      <li class="loading-waiting">正在努力加载...</li>
+    </ul>
+  </div>
+  <div id="BottomSearchDiv" class="search-box w mt10" style="position:relative;">
+    <form action="GoodsServlet" method="post">      
+      <input type="search" name="keywords" id="keywordsBottom" class="search-input" autocomplete="off" value="">
+      <input type="submit" class="search-btn" style="border:none;text-indent:-99em;">
+    </form>
+  </div>
+  
+</div>
+
+ 
+
+
+
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品详情页</title>
+<link rel="stylesheet" type="text/css" href="css/css2-2.css">
+<link rel="stylesheet" type="text/css" href="css/acss.css">
+
+
+
+<script  type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".box1 div img").addClass("alpha");
+$(".box1 div img:eq(0)").removeClass("alpha");
+$(".box1 div img").mouseover(function(){
+var big_src = $(this).attr("src");
+$("#test").attr("src",big_src);
+$(this).removeClass("alpha").siblings().addClass("alpha");
+});
+});
+</script>
+</head>
+<body>
+<div id="atop">
+<div class="atop1-1">
+<div class="atop01">
+<ul class="atop1-2">
+<li>
+<span>欢迎来到WEIPINHUI</span>
+<a href="login1-2.html">请登录</a>
+<a href="task1-4.html">免费注册</a>
+</li>
+</ul>
+<ul class="atop1-3">
+<li>
+<a href="#">签到有礼</a>
+<a href="#">我的订单</a>
+<a href="#">购物车</a>
+<a href="#">商品分类</a>
+<a href="#">联系客服</a>
+
+</li>
+</ul>
+</div>
+</div>
+
+<div id="a1">
+<div class="a1-1">
+  <h1><a href="#">WEIPINHUI</a></h1>
+</div>
+<div class="a1-4">
+<form  action="goodsSearch3-3.jsp" method="post" name="formSearch">
+ <select name="selected" class="selected" > 
+       <option selected>请选择</option>
+       <option value="图书名称">图书名称</option>
+       <option value="作者">作者</option>
+       <option value="类型">类型</option>
+   </select>
+   <input type="search" name="keywords" id="keywordsTop" class="search-input" value="可按书名/作者/类型查询">
+    <!-- 选择列表 -->
+    
+   <input type="submit" class="search-btn" value="检索" >
+</form>
+</div>
+</div>
+<div id="a2">
+<div class="a2-1">
+  <ul class="a2-3">
+    <li><a href="#">特别关注</a></li>
+           <li><a href="#">苏宁易购</a></li>
+           <li><a href="#">天猫国际</a></li>
+           <li><a href="#">精彩活动</a></li>
+           <li><a href="#">文学小说</a></li>
+           <li><a href="#">少儿家教</a></li>
+</ul>
+  <ul class="a2-2">
+    <li><a href="#">图书销量榜</a></li>
+    <li><a href="#">新品排行榜</a></li>
+    <li><a href="#">销量排行榜</a></li>
+    <li><a href="#">新书店</a></li>
+    <li><a href="#">教材辅导</a></li>
+    <li><a href="#">少儿</a></li>
+    <li><a href="#">文学</a></li>
+    <li><a href="goodsSearch3-4.jsp?keywords2=小说">小说</a></li>
+  </ul>
+</div>
+</div>
+<div id="ff">
+<div id="a3">
+<div class="a3-1"> <h2>商品信息</h2></div>
+<div class="box">
+  <div class="box1">
+    <img id="test" title="test" src="images/pm4o.jpg" /><br />
+    <div  class="box2">
+      <img src="images/pm4o.jpg" />
+      <img src="images/pm4f.jpg" />
+      <img src="images/pm4t.jpg"/>
+    </div>
+</div>  
+ 
+</div>
+
+ <div class="abox">
+ 
+ <div class="abox1">
+ <h2>暗杀局</h2>
+ <span>聚焦历史的瞬间，以点概面，阐述暗杀如何影响历史进程 以珍贵的历史照片还原暗杀现场，给读者更清晰的阅读体验  
+</span>
+<ul class="abox1-1">
+ <li>
+ <a href="#"><span>作者</span>:曲飞</a>
+ <a href="#"><span>出版社</span>:贵州人民出版社</a>
+ <a href="#"><span>出版日期</span>:2017年8月</a>
+ </li></ul>
+ </div>
+ <div class="abox2">
+  
+  <p>图书价格</p>
+  <a href="#">￥35.5<em>￥80</em></a>
+  </div>
+  
+  <div class="abox3">
+  <h2>促销</h2>
+  <a href="#">登录</a> 
+ <span>后是否享有此优惠</span>
+  
+  </div>
+ <div class="abox4">
+ <form action="" method="post" name="">
+      <a href="buy?action=add&code=10010">
+ <input type="submit"  name=""    value="加入购物车" class="jia"/></a>
+ 
+  <input type="submit"  name="" value="立即购买" class="mai"/>
+ </form>
+ </div>
+
+
+
+</div>
+
+<div class="cbox">
+
+<h2>WEIPINHUI自营</h2>
+<ul class="cbox1">
+<li>
+<a href="#">正品保证</a><br/>
+<a href="#">服务支持</a><br/>
+<a href="#">15天换货</a><br/>
+<a href="#">7天无理由退货</a><br/>
+<a href="#">7天无理由退货</a><br/>
+
+</li></ul>
+
+
+</div>
+  
+</div>
+
+
+
+
+
+</div>
+ <div id="footer">
+  <div class="foot1">
+   <div class="foot1-1">
+     <ul class="fg">
+     <li>
+ <img src="images/0001.png" width="50" height="50" />       
+ <img src="images/0002.png" width="50" height="50" />
+ <img src="images/0003.png" width="50" height="50" />  
+ <img src="images/0004.png" width="50" height="50" /> </li>
+</ul>    
+</div>
+   <div class="foot1-2">
+   <ul class="fg2">
+   <li>
+   <a href="#">购物指南</a>
+   <a href="#">支付方式</a>
+   <a href="#">订单服务</a>
+   <a href="#">配送方式</a>
+   <a href="#">退换货</a>
+   </li>
+   </ul>
+   
+    <ul class="fg3">
+   <li>
+   <a href="#">购物流程</a>
+   <a href="#">货到付款</a>
+   <a href="#">订单查询</a>
+   <a href="#">配送范围及免邮查询</a>
+   <a href="#">退换货政策</a>
+   </li>
+   </ul>
+   <ul class="fg3">
+   <li>
+   <a href="#">发票制度</a>
+   <a href="#">网上支付</a>
+   <a href="#">订单状况说明</a>
+   <a href="#">当日/次日达</a>
+   <a href="#">自助申请退换货</a>
+   </li>
+   </ul>
+   <ul class="fg3">
+   <li>
+   <a href="#">账户管理</a>
+   <a href="#">礼品卡支付</a>
+   <a href="#">自助取消订单</a>
+   <a href="#">订单自提</a>
+   <a href="#">退换货进度查询</a>
+   </li>
+   </ul>
+    <ul class="fg3">
+   <li>
+   <a href="#">会员优惠</a>
+   <a href="#">银行转账</a>
+   <a href="#">自助修改订单</a>
+   <a href="#">验货与签收</a>
+   <a href="#">退换方式和时间</a>
+   </li>
+   </ul>
+   </div>
+</div>
+<div class="foot2">
+ <ul class="f1">
+   <li>
+      <a href="#">关于我们 |</a>
+      <a href="#"> 了解更多 |</a>
+      <a href="#"> 联系我们 |</a>
+      <a href="#"> 爱心基金 </a>
+ </li>
+ </ul>
+     
+  <p> copyright@2012-2018版权所有 使用本网站积接受WEIPINHUI用户协议 WEIPINHUI有限公司</p></div>
+</div> 
+</div>
+</body>
+</html>

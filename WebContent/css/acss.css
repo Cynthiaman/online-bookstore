@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font:12px Verdana;
+}
+a:hover{
+	text-decoration: none;
+	
+}
+#atop{
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+}
+.atop01{
+	height: 35px;
+	width: 1240px;
+	margin: 0 auto;
+
+	
+}
+.atop1-1{
+	height: 35px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#Fff), to(#CCC));
+	boder-top: 1px solid #e9e5d7;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.atop1-2{
+	height: 35px;
+	list-style-type: none;
+	float: left;
+	margin-top: 0px;
+	
+	}
+.atop1-2 li {
+	margin-top: 15px;
+	margin-left: 0px;
+	
+}
+.atop1-2 li a {
+	margin-left: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	font: 12px Verdana;
+}
+.atop1-2 li span{
+	font:12px Geneva;
+	margin-left:10px;
+}
+.atop1-3{
+	list-style-type: none;
+	float: right;
+	height: 35px;
+	margin-top: 0px;
+	}
+.atop1-3 li {
+	margin-left: 10px;
+	margin-top: 15px;
+	
+}
+.atop1-3 li a {
+	margin-left: 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	font: 12px Verdana;
+}

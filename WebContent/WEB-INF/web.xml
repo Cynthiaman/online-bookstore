@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>project01</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>task5.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+ <servlet>
+   <servlet-name>ValidateYZMServlet</servlet-name>
+   <servlet-class>task5.ValidateYZMServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>ValidateYZMServlet</servlet-name>
+   <url-pattern>/validateYZMServlet</url-pattern>
+ </servlet-mapping>  
+ 
+  
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>task5.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <servlet-class>task5.ValidateCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateCodeServlet</servlet-name>
+    <url-pattern>/validatecode</url-pattern>
+  </servlet-mapping>
+ <servlet>
+   <servlet-name>ValidateServlet</servlet-name>
+   <servlet-class>task5.ValidateServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>ValidateServlet</servlet-name>
+   <url-pattern>/validateServlet</url-pattern>
+ </servlet-mapping>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     <servlet>
+    <servlet-name>GoodsServlet0421</servlet-name>
+	  <servlet-class>task4.GoodsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>GoodsServlet0421</servlet-name>
+	  <url-pattern>/buy</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+	  <servlet-name>GoodsServlet0422</servlet-name>
+	  <servlet-class>task4.CartServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>GoodsServlet0422</servlet-name>
+	  <url-pattern>/cartServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+  <servlet>
+	<servlet-name>GoodsServlet03</servlet-name>
+	<servlet-class>task3.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GoodsServlet03</servlet-name>
+	<url-pattern>/GoodsServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>task3-2.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  <servlet>
+	<servlet-name>GoodsServlet10013</servlet-name>
+	<servlet-class>task2.GoodsServlet10013</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GoodsServlet10013</servlet-name>
+	<url-pattern>/GoodsServlet10013</url-pattern>
+  </servlet-mapping>
+      <welcome-file-list>
+    <welcome-file>gwc10014.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+	<servlet-name>GoodsServlet10014</servlet-name>
+	<servlet-class>task2.GoodsServlet10014</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GoodsServlet10014</servlet-name>
+	<url-pattern>/GoodsServlet10014</url-pattern>
+  </servlet-mapping>
+      <welcome-file-list>
+    <welcome-file>show1.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+	<servlet-name>GoodsServlet2</servlet-name>
+	<servlet-class>task3.GoodsServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GoodsServlet2</servlet-name>
+	<url-pattern>/GoodsServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Servlet2_1</servlet-name>
+    <servlet-class>task.CounterServlet2_1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet2_1</servlet-name>
+    <url-pattern>/count1</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+     <welcome-file>count1</welcome-file>
+  </welcome-file-list>
+  
+  
+  <filter>
+    	<filter-name>Filter2_3 </filter-name>
+    	<filter-class>task.Filter2_3 </filter-class>
+    </filter>
+    <filter-mapping>
+    	<filter-name>Filter2_3 </filter-name>	
+    	<url-pattern>/atask1-1.jsp</url-pattern>
+    </filter-mapping>
+    
+ <listener>
+ <listener-class>task.CounterListener2_4</listener-class>
+ </listener>
+</web-app>
