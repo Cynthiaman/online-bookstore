@@ -1,7 +1,7 @@
 # online bookstore
 
 
-To achieve the majority of users can easily buy their favorite books.
+To achieve the majority of users can easily buy their favorite books. 
 
   
 ### System operation environment and application software
@@ -12,11 +12,6 @@ To achieve the majority of users can easily buy their favorite books.
   - development tool:eclipse
   - Interface:Dremwear CS6
   
-  #### import development kit
-   - sqljdbc4.jar
-   - servlet-api.jar
-   - jstl-api.jar
-   
 ### System Structure design
 - online registration can be achieved
 - login after successful registration,buy the books you want
