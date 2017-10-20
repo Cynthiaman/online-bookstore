@@ -11,11 +11,12 @@ To achieve the majority of users can easily buy their favorite books.
   - data base:SQL Server 2008
   - development tool:eclipse
   - Interface:Dremwear CS6
-
-
-
-
-
+  
+#### 1.1 import development kit
+   - sqljdbc4.jar
+   -servlet-api.jar
+   -jstl-api.jar
+   
 ### System Structure design
 - online registration can be achieved
 - login after successful registration,buy the books you want
