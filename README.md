@@ -12,7 +12,7 @@ To achieve the majority of users can easily buy their favorite books.
   - development tool:eclipse
   - Interface:Dremwear CS6
   
-  #### 1.1 import development kit
+  #### import development kit
    - sqljdbc4.jar
    - servlet-api.jar
    - jstl-api.jar
