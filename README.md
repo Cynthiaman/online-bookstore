@@ -25,4 +25,4 @@ To achieve the majority of users can easily buy their favorite books.
 - display the number of times a web page is accessed
 
 
-* [Breakdance](https://github.com/Cynthiaman/online-bookstore.git) - HTML to Markdown converter
+* [Breakdance](http://htmlpreview.github.com/Cynthiaman/online-bookstore.git) - HTML to Markdown converter
